@@ -29,6 +29,10 @@ npm run dist-flatpak
 
 No lint or test commands are configured.
 
+## Git Configuration
+
+Always use local git config for any changes in this repository — never modify the global git config. Use `git config` (without `--global`) to keep all config changes scoped to this repo.
+
 ## Architecture
 
 This is a minimal Electron wrapper (~166 lines) for the official Pocket Casts web app. All application logic lives in a single file: `main.js`.
