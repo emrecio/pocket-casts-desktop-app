@@ -33,6 +33,8 @@ No lint or test commands are configured.
 
 Always use local git config for any changes in this repository — never modify the global git config. Use `git config` (without `--global`) to keep all config changes scoped to this repo.
 
+Author email: `3452752+emrecio@users.noreply.github.com`
+
 ## Architecture
 
 This is a minimal Electron wrapper (~166 lines) for the official Pocket Casts web app. All application logic lives in a single file: `main.js`.
